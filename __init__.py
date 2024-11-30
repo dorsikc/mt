@@ -1,4 +1,4 @@
-import os
+﻿import os
 import sys
 import requests
 
@@ -19,7 +19,7 @@ class MT:
     ]
     ModuleExist = ["Project '{project}' already exist!"]
     ModuleListMessage = ["Module list"]
-    AboutMessage = ["Information: MT 0.1-alpha"]
+    AboutMessage = ["Information: MT 0.2-alpha"]
     InvalidProjectType = ["Invalid project type!"]
     HelpMessage = {
         "mt help":"Show this",
