@@ -2,6 +2,9 @@ def ReadAlias():
     with open("C:/cell3/mt/modules/pyexec/alias.txt", "r", encoding="utf-8") as f:
         return f.readlines()
 
+def OnModuleList():
+    print("[INSTALLED|ENABLED] PyExec;")
+
 def OnExecute(*s: list):
     MT.HelpMessage[f"mt {ReadAlias()[0]} <command>"] = "Execute Python command"
     MT.HelpMessage["mt pyexec_alias <alias>"] = "Set alias for pyexec command"
