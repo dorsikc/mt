@@ -1,2 +1,0 @@
-other_module_mainfile.py
-otherfile.txt
