@@ -3,6 +3,7 @@ from colorama import Fore
 
 colorama.init()
 try:
-  5/0
+  if 5/0 == 0:
+    print("What")
 except Exception as e:
   print(Fore.RED+e)
